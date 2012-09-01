@@ -1,0 +1,209 @@
+BODY {
+  background: url(../images/main_bg.jpg) 0 0;
+}
+
+.png {
+  behavior: url("js/iepngfix.htc")
+}
+
+.clear {
+  clear: both;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto 26px auto;
+}
+
+#header {
+  
+}
+#header .top_contacts {
+  margin: 13px 0 3px 0;
+  color: #EEEEEE;
+  text-align: right;
+}
+#header .top_contacts P {
+  display: inline;
+  margin: 0;
+  font: 14px/20px arial;
+}
+#header .top_contacts P.border {
+  padding-right: 9px;
+  margin-right: 6px;
+  border-right: solid 1px #494949;
+}
+#header .top_contacts SPAN {
+  font-size: 18px;
+}
+
+#header .top_block {
+  margin-bottom: 31px;
+  overflow: hidden;
+}
+#header .top_block .logo {
+  float: left;
+  display: block;
+  width: 363px;
+  height: 131px;
+  background: url(../images/logo.png) no-repeat 0 0;
+  text-indent: -9999px;
+}
+#header .top_block UL {
+  float: right;
+  margin-top: 65px;
+  overflow: hidden;
+}
+#header .top_block UL LI {
+  float: left;
+  margin-left: 12px;
+  padding: 3px 6px;
+  font: 15px/20px "arial narrow",arial;
+}
+#header .top_block UL LI.act {
+  background: #5C5C5C;
+}
+#header .top_block UL LI A {
+  color: white;
+}
+#header .top_block UL LI.act A {
+  text-decoration: none;
+}
+
+
+#top_baner {
+  width: 898px;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #181818;
+  border-width: 0 1px;
+  overflow: hidden;
+}
+
+
+#content {
+  
+}
+#content .header {
+  background: url(../images/cont_header-bg.png) repeat-x 0 0;
+  border-style: solid;
+  border-color: #6A6A69;
+  border-width: 1px 1px 0 1px;
+  overflow: hidden;
+}
+#content .header H1 {
+  float: left;
+  margin: 7px 0 0 23px;
+  padding: 0 29px;
+  background: #121212;
+  font: 24px/47px "arial narrow",arial;
+  color: #EEECE6;
+  white-space: nowrap;
+}
+
+#content .content {
+  background: #EEECE6;
+  border: solid 1px #8C8B87;
+  overflow: hidden;
+}
+#content .content .left_col {
+  float: left;
+  width: 358px;
+  padding: 45px 0 0 12px;
+}
+#content .content .left_col .left_fotos {
+  
+}
+#content .content .left_col .left_fotos .foto_item {
+  width: 280px;
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+#content .content .left_col .left_fotos .foto_item IMG {
+  margin: 10px 10px 5px 10px;
+  box-shadow: 0 0 10px silver;
+}
+#content .content .left_col .left_fotos .foto_item .c1 {
+  background: url(../images/foto_cur-1.png) no-repeat 0 0;
+  overflow: hidden;
+}
+#content .content .left_col .left_fotos .foto_item .c2 {
+  background: url(../images/foto_cur-2.png) no-repeat 100% 0;
+  overflow: hidden;
+}
+#content .content .left_col .left_fotos .foto_item .c3 {
+  background: url(../images/foto_cur-3.png) no-repeat 0 100%;
+  overflow: hidden;
+}
+#content .content .left_col .left_fotos .foto_item .c4 {
+  background: url(../images/foto_cur-4.png) no-repeat 100% 100%;
+  overflow: hidden;
+}
+#content .content .right_col {
+  float: right;
+  width: 220px;
+  padding: 60px 0 0 0;
+  font: 16px "arial narrow",arial;
+  color: #3D3D3D;
+  text-align: center;
+}
+#content .content .right_col #vk_groups {
+  
+}
+#content .content .cont_col {
+  margin: 0 230px 0 370px;
+}
+#content .content .cont_col H2 {
+  margin: 29px 0 8px 0;
+  font: bold 20px/20px "arial narrow",arial;
+  color: #424242;
+}
+#content .content .cont_col .cont_text {
+  padding: 5px 20px 0 0;
+  background: url(../images/content_text-bg.png) no-repeat 100% 0;
+  font: 13px "arial narrow",arial;
+  color: #3D3D3D;
+}
+
+
+
+#footer {
+  padding-top: 18px;
+  background: url(../images/footer_bg.png) repeat-x 0 0 #060606;
+}
+#footer .menu {
+  font: 15px/15px "arial narrow",arial;
+  text-align: center;
+}
+#footer .menu A {
+  padding: 0 10px;
+  color: white;
+  text-decoration: underline;
+}
+#footer .menu A:hover {
+  text-decoration: none;
+}
+#footer .copyright {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px 0 7px 0;
+  font: 10px/15px "arial narrow",arial;
+  color: white;
+  text-align: center;
+}
+#footer .copyright A {
+  color: white;
+}
+#footer .powered {
+  float: right;
+  margin: 35px 10px 0 0;
+  font: 12px/12px "arial narrow",arial;
+  color: white;
+}
+#footer .powered A {
+  color: white;
+}
