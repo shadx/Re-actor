@@ -245,7 +245,7 @@ A:hover {
 #content_inner .actions .action_item P {
   padding-bottom: 17px;
   margin: 0;
-  font: bold 14px arial;
+  font: 14px arial;
   color: #6B6969;
 }
 #content_inner .actions .action_item .last {
@@ -331,15 +331,16 @@ A:hover {
   padding-bottom: 18px;
   margin: 0 0 56px 140px;
   background: url(../images/bg_contacts_head.png) repeat-x bottom left;
-  font: bold 18px arial;
+  font: 18px arial;
   color: white;
-}.feedback_block {
+}
+.feedback_block {
   overflow: hidden;
   margin-bottom: 30px;
 }
 .feedback_block .left {
   float: left;
-  padding-right: 16px;
+  padding: 20px 16px 0 0;
   font: bold 14px arial;
   color: white;
   text-align: right;
@@ -382,7 +383,7 @@ A:hover {
   border: 0;
   border-radius: 6px;
   width: 161px;
-  height: 30px;
+  height: 36px;
   background: url(../images/bg_send.png) repeat-x;
   font: bold 13px/30px arial;
   color: #3D3D3D;
@@ -391,7 +392,7 @@ A:hover {
   cursor: pointer;
 }
 
-
+/*obratnaya_svyaz*/
 /*fotogallereya*/
 
 .fotogallereya_block {
@@ -490,34 +491,6 @@ A:hover {
   font: bold 13px arial;
   color: #6B6969;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*o_brendah*/
