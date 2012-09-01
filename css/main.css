@@ -288,6 +288,7 @@ A:hover {
 #content_inner .news_block .news_item .action_item IMG {
   float: left;
   margin: 0 18px 0 0;
+  box-shadow: -2px 0 10px #DCD9D5;
 }
 #content_inner .news_block .news_item .action_item P {
   padding-bottom: 17px;
@@ -308,39 +309,184 @@ A:hover {
   float: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*novosti*/
 
 
+/*obratnaya_svyaz*/
 
+.contacts_head {
+  padding-bottom: 18px;
+  margin: 0 0 56px 140px;
+  background: url(../images/bg_contacts_head.png) repeat-x bottom left;
+  font: bold 18px arial;
+  color: white;
+}.feedback_block {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.feedback_block .left {
+  float: left;
+  padding-right: 16px;
+  font: bold 14px arial;
+  color: white;
+  text-align: right;
+}
+.feedback_block .left SPAN {
+  display: block;
+}
+.feedback_block .left .feedback_name {
+  padding: 12px 0 8px 0;
+  margin-bottom: 6px;
+}
+.feedback_block .left .feedback_email {
+  padding: 12px 0 8px 0;
+  margin-bottom: 6px;
+}
+.feedback_block .left .feedback_tetxt {
+  padding: 0 0 8px 0;
+  margin-bottom: 6px;
+}
+.feedback_block .right {
+  margin-left: 140px;
+}
+.feedback_block .right INPUT {
+  display: block;
+  margin-bottom: 6px;
+  width: 728px;
+  height: 32px;
+}
+.feedback_block .right TEXTAREA {
+  width: 726px;
+  height: 317px;
+}
+.feedback_block .right A {
+  display: block;
+  float: right;
+  border: 3px solid #9E9D9C;
+  border-radius: 6px;
+  width: 155px;
+  height: 30px;
+  background: url(../images/bg_otpravit_sms.png) repeat-x;
+  font: bold 13px/30px arial;
+  color: #3D3D3D;
+  text-align: center;
+  margin: 8px 28px 0 0;
+}
+
+
+/*fotogallereya*/
+
+.fotogallereya_block {
+  overflow: hidden;
+  margin-bottom: 31px;
+}
+.fotogallereya_block .fotogallereya_item {
+  float: left;
+  margin: 0 30px 107px 0;
+  position: relative;
+}
+.fotogallereya_block .last {
+  margin-right: 0;
+}
+.fotogallereya_block .last-bot {
+  margin-bottom: 32px;
+}
+.fotogallereya_block .fotogallereya_item .item_foto {
+  border: 1px solid #DCD9D5;
+  box-shadow: 0 0 30px #121212;
+  background: #F5F5F5;
+  margin: 21px;
+}
+.fotogallereya_block .fotogallereya_item .item_foto IMG {
+  padding: 6px;
+  width: 214px;
+  height: 165px;
+  margin: 0 auto;
+}
+.fotogallereya_block .fotogallereya_item .increase {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.fotogallereya_block .fotogallereya_item .increase A {
+  padding-right: 10px;
+  background: url(../images/bg_more2.png) no-repeat center right;
+  font: 12px arial;
+  color: #636363;
+  text-align: center;
+}
+.fotogallereya_block .galery_navi {
+  float: right;
+  font: 14px arial;
+  color: #F5F5F5;
+}
+.fotogallereya_block .galery_navi A {
+  color: #F5F5F5;
+}
+.fotogallereya_block .galery_navi .last {
+  display: inline-block;
+  padding-right: 10px;
+  margin-left: 5px;
+  background: url(../images/bg_more.png) no-repeat center right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fotogallereya*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*obratnaya_svyaz*/
