@@ -431,29 +431,70 @@ A:hover {
   margin-left: 5px;
   background: url(../images/bg_more.png) no-repeat center right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*fotogallereya*/
+
+/*o_brendah*/
+
+.brednds_block {
+  
+}
+.brednds_block .brends_item {
+  margin-bottom: 88px;
+  overflow: hidden;
+}
+.brednds_block .brends_item .left {
+  width: 164px;
+}
+.brednds_block .brends_item .left IMG {
+  float: left;
+  border: 1px solid #8F8F8F;
+}
+.brednds_block .brends_item .right {
+  margin-left: 231px;
+}
+.brednds_block .brends_item .right .brends_item-head {
+  font: 20px/20px arial;
+  color: white;
+  padding-bottom: 7px;
+  margin-bottom: 5px;
+  background: url(../images/bg_brends_item-head.jpg) repeat-x bottom left;
+}
+.brednds_block .brends_item .right P {
+  margin: 0;
+  font: bold 13px arial;
+  color: #6B6969;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*o_brendah*/
 
 
 
