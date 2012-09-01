@@ -463,14 +463,16 @@ A:hover {
 /*o_brendah*/
 
 .brednds_block {
-  
+  overflow: hidden;
 }
 .brednds_block .brends_item {
   margin-bottom: 88px;
   overflow: hidden;
 }
 .brednds_block .brends_item .left {
+  float: left;
   width: 164px;
+  overflow: hidden;
 }
 .brednds_block .brends_item .left IMG {
   float: left;
@@ -490,6 +492,7 @@ A:hover {
   margin: 0;
   font: bold 13px arial;
   color: #6B6969;
+  text-align: justify;
 }
 
 
