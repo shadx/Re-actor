@@ -229,14 +229,23 @@ A:hover {
 #content_inner .actions .last {
   margin-bottom: 0;
 }
+#content_inner .actions .action_item .act_foto {
+  float: left;
+  width: 258px;
+  margin: 0 12px 0 0;
+  background: red;
+  overflow: hidden;
+}
 #content_inner .actions .action_item IMG {
   float: left;
-  margin: 0 12px 0 0;
+}
+#content_inner .actions .action_item .act_text {
+  margin: 0 0 0 270px;
 }
 #content_inner .actions .action_item P {
   padding-bottom: 17px;
   margin: 0;
-  font: 14px "times new roman";
+  font: bold 14px arial;
   color: #6B6969;
 }
 #content_inner .actions .action_item .last {
@@ -244,7 +253,7 @@ A:hover {
 }
 #content_inner .actions .action_item .act_data {
   margin: 0;
-  padding-top: 12px;
+  padding-top: 15px;
   font: 12px arial;
   color: #9D9D9D;
   float: right;
@@ -275,6 +284,10 @@ A:hover {
   top: -7px;
   left: 0;  
 }
+#content_inner .news_block .news_item .news_head A {
+  color: #3E3E3E;
+  text-decoration: none;  
+}
 #content_inner .news_block .news_item .action_item {
   padding: 15px 17px 13px 11px;
   overflow: hidden;
@@ -293,8 +306,8 @@ A:hover {
 #content_inner .news_block .news_item .action_item P {
   padding-bottom: 17px;
   margin: 0;
-  font: 13px "times new roman";
-  color: #6B6969;
+  font: 12px arial;
+  color: #3D3D3D;
 }
 #content_inner .news_block .news_item .action_item .last {
   padding-bottom: 0;
@@ -304,8 +317,8 @@ A:hover {
   padding: 0 11px 0 0;
   margin: 30px 0 0 0;
   background: url(../images/bg_news_more.jpg) no-repeat center right;
-  font: 16px/16px "times new roman";
-  color: #3C3C3C;
+  font: 14px/16px arial;
+  color: #3D3D3D;
   float: right;
 }
 
@@ -349,6 +362,11 @@ A:hover {
 .feedback_block .right {
   margin-left: 140px;
 }
+.feedback_block .right .necessarily {
+  font: bold 12px arial;
+  color: #969696;
+  margin-bottom: 6px;
+}
 .feedback_block .right INPUT {
   display: block;
   margin-bottom: 6px;
@@ -359,18 +377,18 @@ A:hover {
   width: 726px;
   height: 317px;
 }
-.feedback_block .right A {
-  display: block;
+.feedback_block .right .send {
   float: right;
-  border: 3px solid #9E9D9C;
+  border: 0;
   border-radius: 6px;
-  width: 155px;
+  width: 161px;
   height: 30px;
-  background: url(../images/bg_otpravit_sms.png) repeat-x;
+  background: url(../images/bg_send.png) repeat-x;
   font: bold 13px/30px arial;
   color: #3D3D3D;
   text-align: center;
   margin: 8px 28px 0 0;
+  cursor: pointer;
 }
 
 
@@ -415,7 +433,11 @@ A:hover {
   background: url(../images/bg_more2.png) no-repeat center right;
   font: 12px arial;
   color: #636363;
+  text-decoration: underline;
   text-align: center;
+}
+.fotogallereya_block .fotogallereya_item .increase A:hover {
+  text-decoration: none;
 }
 .fotogallereya_block .galery_navi {
   float: right;
@@ -424,6 +446,10 @@ A:hover {
 }
 .fotogallereya_block .galery_navi A {
   color: #F5F5F5;
+  text-decoration: underline;
+}
+.fotogallereya_block .galery_navi A:hover {
+  text-decoration: none;
 }
 .fotogallereya_block .galery_navi .last {
   display: inline-block;
