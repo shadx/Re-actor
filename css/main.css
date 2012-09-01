@@ -207,3 +207,93 @@ A:hover {
 #footer .powered A {
   color: white;
 }
+/*akcii*/
+
+
+#content_inner {
+  
+}
+#content_inner .actions {
+  background: #6B6969;
+  margin-bottom: 43px;
+  overflow: hidden;
+}
+#content_inner .actions .action_item {
+  padding: 7px;
+  margin-bottom: 9px;
+  overflow: hidden;
+  background: #EEEEEE;
+  border-top: 1px solid #BAB9B9;
+  border-bottom: 1px solid #BAB9B9;
+}
+#content_inner .actions .last {
+  margin-bottom: 0;
+}
+#content_inner .actions .action_item IMG {
+  float: left;
+  margin: 0 12px 0 0;
+}
+#content_inner .actions .action_item P {
+  padding-bottom: 17px;
+  margin: 0;
+  font: 14px "times new roman";
+  color: #6B6969;
+}
+#content_inner .actions .action_item .last {
+  padding-bottom: 0;
+}
+#content_inner .actions .action_item .act_data {
+  margin: 0;
+  padding-top: 12px;
+  font: 12px/12px "times new roman";
+  color: #9D9D9D;
+  float: right;
+}
+
+/*akcii*/
+
+/*novosti*/
+
+#content_inner .news_block {
+  
+}
+#content_inner .news_block .news_item {
+  background: #EFECE7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*novosti*/
+
+
+
